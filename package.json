@@ -1,35 +1,62 @@
 {
-  "name": "bluez",
-  "version": "0.1.0",
-  "description": "Bluez5 D-Bus library for easy to use bluetooth access in node",
-  "keywords": [
-    "bluez",
-    "bluez5",
-    "bluetooth",
-    "dbus",
-    "d-bus"
-  ],
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "node-gyp configure build"
-  },
-  "author": "WaeCo <aaqqws@googlemail.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/waeco/node-bluez#readme",
-  "dependencies": {
-    "dbus": "github:Shouqun/node-dbus",
-    "errno": "^0.1.5",
-    "nan": "^2.1.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/waeco/node-bluez.git"
-  },
-  "bugs": {
-    "url": "https://github.com/waeco/node-bluez/issues"
-  },
-  "os": [
-    "!win32"
-  ]
+	"_from": "git+https://github.com/WaeCo/node-bluez.git",
+	"_id": "bluez@0.1.0",
+	"_inBundle": false,
+	"_location": "/bluez",
+	"_phantomChildren": {
+		"nan": "2.8.0"
+	},
+	"_requested": {
+		"fetchSpec": "https://github.com/WaeCo/node-bluez.git",
+		"gitCommittish": null,
+		"raw": "git+https://github.com/WaeCo/node-bluez.git",
+		"rawSpec": "git+https://github.com/WaeCo/node-bluez.git",
+		"saveSpec": "git+https://github.com/WaeCo/node-bluez.git",
+		"type": "git"
+	},
+	"_requiredBy": [
+		"#USER",
+		"/"
+	],
+	"_resolved": "git+https://github.com/WaeCo/node-bluez.git#b33c3a25105986001965f994189685ddeaf95fd9",
+	"_spec": "git+https://github.com/WaeCo/node-bluez.git",
+	"_where": "/usr/local/bmwcd",
+	"author": {
+		"email": "aaqqws@googlemail.com",
+		"name": "WaeCo"
+	},
+	"bugs": {
+		"url": "https://github.com/waeco/node-bluez/issues"
+	},
+	"bundleDependencies": false,
+	"dependencies": {
+		"dbus": "github:Shouqun/node-dbus",
+		"errno": "^0.1.5",
+		"nan": "^2.1.0"
+	},
+	"deprecated": false,
+	"description": "Bluez5 D-Bus library for easy to use bluetooth access in node",
+	"homepage": "https://github.com/waeco/node-bluez#readme",
+	"keywords": [
+		"bluez",
+		"bluez5",
+		"bluetooth",
+		"dbus",
+		"d-bus"
+	],
+	"license": "MIT",
+	"main": "index.js",
+	"name": "bluez",
+	"os": [
+		"!win32"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/waeco/node-bluez.git"
+	},
+	"scripts": {
+		"install": "node-gyp configure build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"version": "0.1.0"
 }
