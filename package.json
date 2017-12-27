@@ -31,8 +31,8 @@
 	"bundleDependencies": false,
 	"dependencies": {
 		"dbus": "github:Shouqun/node-dbus",
-		"errno": "^0.1.5",
-		"nan": "^2.1.0"
+		"errno": "^0.1.6",
+		"nan": "^2.8.0"
 	},
 	"deprecated": false,
 	"description": "Bluez5 D-Bus library for easy to use bluetooth access in node",
