@@ -4,11 +4,11 @@
 		"url": "https://github.com/waeco/node-bluez/issues"
 	},
 	"dependencies": {
-		"dbus": "github:Shouqun/node-dbus",
+		"dbus": "git+https://github.com/Shouqun/node-dbus.git",
 		"errno": "^0.1.6",
 		"nan": "^2.8.0"
 	},
-	"description": "Bluez5 D-Bus library for easy to use bluetooth access in node",
+	"description": "BlueZ 5 D-Bus library for easy to use bluetooth access in node",
 	"homepage": "https://github.com/waeco/node-bluez#readme",
 	"keywords": [
 		"bluez",
@@ -25,11 +25,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/waeco/node-bluez.git"
+		"url": "git+https://github.com/waeco/node-bluez.git"
 	},
 	"scripts": {
-		"install": "node-gyp configure build",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"install": "node-gyp configure build"
 	},
 	"version": "0.1.0"
 }
