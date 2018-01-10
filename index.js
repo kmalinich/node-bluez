@@ -9,7 +9,6 @@ Bluez.Profile = require('./lib/Profile');
 
 Bluez.RawFdSocket = require('./lib/RawFdSocket');
 
-Bluez.AVRCProfile   = require('./lib/AVRCProfile');
 Bluez.SerialProfile = require('./lib/SerialProfile');
 
 module.exports = Bluez;
